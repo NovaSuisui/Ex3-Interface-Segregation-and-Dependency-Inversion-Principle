@@ -5,5 +5,5 @@ public class App {
 		PaymentController controller = new PaymentController();
 		controller.setPaymentMethod(new PaoTang());
 		controller.pay();		
-	}
+	} 
 }
